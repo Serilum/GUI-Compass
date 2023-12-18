@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20GUI%20Compass"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20GUI%20Compass"
 logoFile="icon.png"
 
 [[mods]]
 modId="guicompass"
-version="4.3"
+version="4.4"
 displayName="GUI Compass"
-displayURL="https://curseforge.com/minecraft/mc-mods/gui-compass"
+displayURL="https://serilum.com/mod/gui-compass"
 authors="Rick South"
 description='''Shows the direction and coordinates in the GUI with a compass in the inventory.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.guicompass]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.13,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.guicompass]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.4]"
     ordering="NONE"
