@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="guicompass"
-version="4.5"
+version="4.6"
 displayName="GUI Compass"
 displayURL="https://serilum.com/mod/gui-compass"
 authors="Rick South"
