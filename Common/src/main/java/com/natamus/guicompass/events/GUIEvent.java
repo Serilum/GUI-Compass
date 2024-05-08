@@ -101,6 +101,10 @@ public class GUIEvent {
 			toshow += ppos.getZ() + ", ";
 		}
 
+		if (toshow.length() < 2) {
+			return "";
+		}
+
 		return toshow.substring(0, toshow.length() - 2);
 	}
 }
