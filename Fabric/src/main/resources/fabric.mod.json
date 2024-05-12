@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "guicompass",
-  "version": "4.6",
+  "version": "4.7",
 
   "name": "GUI Compass",
   "description": "Shows the direction and coordinates in the GUI with a compass in the inventory.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.56"
+    "collective": ">=7.57"
   },
 
   "custom": {
@@ -49,7 +49,6 @@
 	  " Jack",
 	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
