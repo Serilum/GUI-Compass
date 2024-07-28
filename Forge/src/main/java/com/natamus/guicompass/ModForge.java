@@ -1,6 +1,7 @@
 package com.natamus.guicompass;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.guicompass.forge.config.IntegrateForgeConfig;
 import com.natamus.guicompass.forge.events.ForgeGUIEvent;
 import com.natamus.guicompass.util.Reference;
@@ -18,6 +19,10 @@ import net.minecraftforge.fml.loading.FMLEnvironment;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
