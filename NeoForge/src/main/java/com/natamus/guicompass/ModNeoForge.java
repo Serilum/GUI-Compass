@@ -1,6 +1,7 @@
 package com.natamus.guicompass;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.guicompass.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.guicompass.util.Reference;
 import net.neoforged.bus.api.IEventBus;
@@ -12,6 +13,10 @@ import net.neoforged.fml.event.lifecycle.FMLLoadCompleteEvent;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();
