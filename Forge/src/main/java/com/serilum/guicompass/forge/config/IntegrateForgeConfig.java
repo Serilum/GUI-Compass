@@ -1,7 +1,7 @@
-package com.natamus.guicompass.forge.config;
+package com.serilum.guicompass.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

@@ -1,7 +1,7 @@
-package com.natamus.guicompass.config;
+package com.serilum.guicompass.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
