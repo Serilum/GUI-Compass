@@ -1,10 +1,10 @@
-package com.natamus.guicompass.events;
+package com.serilum.guicompass.events;
 
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.natamus.collective.functions.GUIFunctions;
-import com.natamus.guicompass.config.ConfigHandler;
-import com.natamus.guicompass.util.Util;
+import com.serilum.guicompass.config.ConfigHandler;
+import com.serilum.guicompass.util.Util;
 import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
