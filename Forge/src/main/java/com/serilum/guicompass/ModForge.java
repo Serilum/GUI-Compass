@@ -1,9 +1,9 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.guicompass.forge.config.IntegrateForgeConfig;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.forge.config.IntegrateForgeConfig;
+import com.serilum.guicompass.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
