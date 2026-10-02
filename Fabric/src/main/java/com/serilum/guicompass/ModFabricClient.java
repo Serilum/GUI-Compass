@@ -1,8 +1,8 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
-import com.natamus.guicompass.events.GUIEvent;
+import com.serilum.guicompass.events.GUIEvent;
 import net.fabricmc.api.ClientModInitializer;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.util.Reference;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.gui.GuiGraphics;

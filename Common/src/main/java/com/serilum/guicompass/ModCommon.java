@@ -1,6 +1,6 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
-import com.natamus.guicompass.config.ConfigHandler;
+import com.serilum.guicompass.config.ConfigHandler;
 
 public class ModCommon {
 

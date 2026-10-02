@@ -1,6 +1,6 @@
-package com.natamus.guicompass.forge.events;
+package com.serilum.guicompass.forge.events;
 
-import com.natamus.guicompass.events.GUIEvent;
+import com.serilum.guicompass.events.GUIEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.entity.ItemRenderer;

@@ -1,10 +1,10 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.guicompass.forge.config.IntegrateForgeConfig;
-import com.natamus.guicompass.forge.events.ForgeGUIEvent;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.forge.config.IntegrateForgeConfig;
+import com.serilum.guicompass.forge.events.ForgeGUIEvent;
+import com.serilum.guicompass.util.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
