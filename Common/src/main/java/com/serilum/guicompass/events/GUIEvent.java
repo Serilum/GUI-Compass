@@ -2,6 +2,7 @@ package com.serilum.guicompass.events;
 
 import com.mojang.blaze3d.platform.Window;
 import org.joml.Matrix3x2fStack;
+import com.natamus.collective.functions.ColourFunctions;
 import com.natamus.collective.functions.GUIFunctions;
 import com.serilum.guicompass.config.ConfigHandler;
 import com.serilum.guicompass.util.Util;
@@ -51,16 +52,16 @@ public class GUIEvent {
 		
 		int stringWidth = fontRenderer.width(coordinates);
 		
-		Color colour = new Color(ConfigHandler.RGB_R, ConfigHandler.RGB_G, ConfigHandler.RGB_B, 255);
+		Color colour = new Color(ColourFunctions.getRgbColour(ConfigHandler.RGB));
 
 		Matrix3x2fStack matrixStack = guiGraphics.pose();
 		matrixStack.pushMatrix();
 		
 		int xcoord;
-		if (ConfigHandler.compassPositionIsLeft) {
+		if (ConfigHandler.compassPosition.equals("Left")) {
 			xcoord = 5;
 		}
-		else if (ConfigHandler.compassPositionIsCenter) {
+		else if (ConfigHandler.compassPosition.equals("Center")) {
 			xcoord = (width/2) - (stringWidth/2);
 		}
 		else {
