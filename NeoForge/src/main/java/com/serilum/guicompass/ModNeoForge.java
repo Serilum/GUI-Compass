@@ -1,9 +1,9 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.guicompass.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.guicompass.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

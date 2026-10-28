@@ -1,8 +1,8 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

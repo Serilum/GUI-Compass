@@ -1,9 +1,9 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
 import com.natamus.collective.globalcallbacks.CollectiveGuiCallback;
 import com.natamus.collective.services.Services;
-import com.natamus.guicompass.config.ConfigHandler;
-import com.natamus.guicompass.events.GUIEvent;
+import com.serilum.guicompass.config.ConfigHandler;
+import com.serilum.guicompass.events.GUIEvent;
 
 public class ModCommon {
 

@@ -1,7 +1,7 @@
-package com.natamus.guicompass;
+package com.serilum.guicompass;
 
 import net.fabricmc.api.ClientModInitializer;
-import com.natamus.guicompass.util.Reference;
+import com.serilum.guicompass.util.Reference;
 import com.natamus.collective.check.ShouldLoadCheck;
 
 public class ModFabricClient implements ClientModInitializer {

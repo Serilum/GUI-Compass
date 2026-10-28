@@ -1,4 +1,4 @@
-package com.natamus.guicompass.util;
+package com.serilum.guicompass.util;
 
 import net.minecraft.world.item.CompassItem;
 import net.minecraft.world.item.Item;
