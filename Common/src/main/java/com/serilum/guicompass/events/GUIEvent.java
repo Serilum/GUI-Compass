@@ -4,6 +4,7 @@ import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.natamus.collective.functions.ColourFunctions;
 import com.natamus.collective.functions.GUIFunctions;
+import com.natamus.collective.functions.PlayerFunctions;
 import com.serilum.guicompass.config.ConfigHandler;
 import com.serilum.guicompass.util.Util;
 import net.minecraft.client.Minecraft;
@@ -13,7 +14,6 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.player.Inventory;
 
 import java.awt.*;
 import java.util.Arrays;
@@ -28,17 +28,7 @@ public class GUIEvent {
 		}
 
 		if (ConfigHandler.mustHaveCompassInInventory) {
-			boolean found = Util.isCompass(mc.player.getOffhandItem());
-			if (!found) {
-				Inventory inv = mc.player.getInventory();
-				for (int n = 0; n <= 35; n++) {
-					if (Util.isCompass(inv.getItem(n))) {
-						found = true;
-						break;
-					}
-				}
-			}
-			if (!found) {
+			if (!PlayerFunctions.hasItemInInventory(mc.player, Util::isCompass)) {
 				return;
 			}
 		}
